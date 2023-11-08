@@ -1,1 +1,5 @@
 /logs/
+.*          
+# Every file that starts with a dot
+!.gitignore 
+# Exclude .gitignore from that (we want this one)
